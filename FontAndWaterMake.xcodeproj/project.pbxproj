@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F43836E235AF39300E00376 /* TextEditLab.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F43836D235AF39300E00376 /* TextEditLab.m */; };
+		2F438373235AF6FB00E00376 /* TextEnterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F438372235AF6FB00E00376 /* TextEnterView.m */; };
+		2F438377235B084D00E00376 /* shanchu.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F438376235B084D00E00376 /* shanchu.png */; };
+		2F538380235AE97F00DFAFB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F53837F235AE97F00DFAFB8 /* AppDelegate.m */; };
+		2F538383235AE97F00DFAFB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F538382235AE97F00DFAFB8 /* ViewController.m */; };
+		2F538386235AE97F00DFAFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F538384235AE97F00DFAFB8 /* Main.storyboard */; };
+		2F538388235AE98100DFAFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F538387235AE98100DFAFB8 /* Assets.xcassets */; };
+		2F53838B235AE98100DFAFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F538389235AE98100DFAFB8 /* LaunchScreen.storyboard */; };
+		2F53838E235AE98100DFAFB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F53838D235AE98100DFAFB8 /* main.m */; };
+		2F538398235AE98100DFAFB8 /* FontAndWaterMakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F538397235AE98100DFAFB8 /* FontAndWaterMakeTests.m */; };
+		2F5383A3235AE98100DFAFB8 /* FontAndWaterMakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5383A2235AE98100DFAFB8 /* FontAndWaterMakeUITests.m */; };
+		2F5383B1235AE9D400DFAFB8 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2F5383B0235AE9D300DFAFB8 /* 1.jpeg */; };
+		2F594122235D9B4600B96C61 /* TextDirectionSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F594121235D9B4500B96C61 /* TextDirectionSelectView.m */; };
+		2F59412C235D9E8E00B96C61 /* duiqi_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F594129235D9E8E00B96C61 /* duiqi_2.png */; };
+		2F59412D235D9E8E00B96C61 /* duiqi_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F59412A235D9E8E00B96C61 /* duiqi_3.png */; };
+		2F59412E235D9E8E00B96C61 /* duiqi_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F59412B235D9E8E00B96C61 /* duiqi_1.png */; };
+		2F594131235DC47400B96C61 /* ColorSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F594130235DC47400B96C61 /* ColorSelectView.m */; };
+		2F594134235DC80800B96C61 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F594132235DC80800B96C61 /* UIColor+Hex.m */; };
+		2F594137235DCE0400B96C61 /* FontSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F594136235DCE0400B96C61 /* FontSelectionView.m */; };
+		7AB5618D9021A85211C0C229 /* Pods_FontAndWaterMake.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E2C4E726A1C74C2AA88BAB /* Pods_FontAndWaterMake.framework */; };
+		97EC76B013FAD6DAE8198C52 /* Pods_FontAndWaterMakeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCDF171AD9F4AB597A5689 /* Pods_FontAndWaterMakeTests.framework */; };
+		E5AFBE6374C403192502F2A3 /* Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561827711E020F9E59A5F303 /* Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F538394235AE98100DFAFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F538373235AE97F00DFAFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F53837A235AE97F00DFAFB8;
+			remoteInfo = FontAndWaterMake;
+		};
+		2F53839F235AE98100DFAFB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F538373235AE97F00DFAFB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F53837A235AE97F00DFAFB8;
+			remoteInfo = FontAndWaterMake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1985E6D2ABF239812025FAEE /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMake-FontAndWaterMakeUITests.release.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMake-FontAndWaterMakeUITests/Pods-FontAndWaterMake-FontAndWaterMakeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C1AEFEF4727C201FC28CB56 /* Pods-FontAndWaterMake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMake.debug.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMake/Pods-FontAndWaterMake.debug.xcconfig"; sourceTree = "<group>"; };
+		2F43836C235AF39300E00376 /* TextEditLab.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextEditLab.h; sourceTree = "<group>"; };
+		2F43836D235AF39300E00376 /* TextEditLab.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEditLab.m; sourceTree = "<group>"; };
+		2F438371235AF6FB00E00376 /* TextEnterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextEnterView.h; sourceTree = "<group>"; };
+		2F438372235AF6FB00E00376 /* TextEnterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEnterView.m; sourceTree = "<group>"; };
+		2F438376235B084D00E00376 /* shanchu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shanchu.png; sourceTree = "<group>"; };
+		2F53837B235AE97F00DFAFB8 /* FontAndWaterMake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontAndWaterMake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F53837E235AE97F00DFAFB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F53837F235AE97F00DFAFB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F538381235AE97F00DFAFB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F538382235AE97F00DFAFB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F538385235AE97F00DFAFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F538387235AE98100DFAFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F53838A235AE98100DFAFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F53838C235AE98100DFAFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F53838D235AE98100DFAFB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F538393235AE98100DFAFB8 /* FontAndWaterMakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAndWaterMakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F538397235AE98100DFAFB8 /* FontAndWaterMakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAndWaterMakeTests.m; sourceTree = "<group>"; };
+		2F538399235AE98100DFAFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F53839E235AE98100DFAFB8 /* FontAndWaterMakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontAndWaterMakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F5383A2235AE98100DFAFB8 /* FontAndWaterMakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontAndWaterMakeUITests.m; sourceTree = "<group>"; };
+		2F5383A4235AE98100DFAFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5383B0235AE9D300DFAFB8 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		2F594120235D9B4500B96C61 /* TextDirectionSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextDirectionSelectView.h; sourceTree = "<group>"; };
+		2F594121235D9B4500B96C61 /* TextDirectionSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextDirectionSelectView.m; sourceTree = "<group>"; };
+		2F594129235D9E8E00B96C61 /* duiqi_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duiqi_2.png; sourceTree = "<group>"; };
+		2F59412A235D9E8E00B96C61 /* duiqi_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duiqi_3.png; sourceTree = "<group>"; };
+		2F59412B235D9E8E00B96C61 /* duiqi_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = duiqi_1.png; sourceTree = "<group>"; };
+		2F59412F235DC47400B96C61 /* ColorSelectView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorSelectView.h; sourceTree = "<group>"; };
+		2F594130235DC47400B96C61 /* ColorSelectView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSelectView.m; sourceTree = "<group>"; };
+		2F594132235DC80800B96C61 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		2F594133235DC80800B96C61 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		2F594135235DCE0400B96C61 /* FontSelectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontSelectionView.h; sourceTree = "<group>"; };
+		2F594136235DCE0400B96C61 /* FontSelectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontSelectionView.m; sourceTree = "<group>"; };
+		38CCDF171AD9F4AB597A5689 /* Pods_FontAndWaterMakeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontAndWaterMakeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E2C4E726A1C74C2AA88BAB /* Pods_FontAndWaterMake.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontAndWaterMake.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		561827711E020F9E59A5F303 /* Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98ACE32DFF20025B0B6DD997 /* Pods-FontAndWaterMakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMakeTests.release.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMakeTests/Pods-FontAndWaterMakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		99A8AD0340A886436EB15DB2 /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMake-FontAndWaterMakeUITests.debug.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMake-FontAndWaterMakeUITests/Pods-FontAndWaterMake-FontAndWaterMakeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C83E99DBBB7AEAD475DFE1EE /* Pods-FontAndWaterMakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMakeTests.debug.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMakeTests/Pods-FontAndWaterMakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0FF5A9AB12B814884A9B070 /* Pods-FontAndWaterMake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontAndWaterMake.release.xcconfig"; path = "Target Support Files/Pods-FontAndWaterMake/Pods-FontAndWaterMake.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F538378235AE97F00DFAFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB5618D9021A85211C0C229 /* Pods_FontAndWaterMake.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F538390235AE98100DFAFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97EC76B013FAD6DAE8198C52 /* Pods_FontAndWaterMakeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F53839B235AE98100DFAFB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AFBE6374C403192502F2A3 /* Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1696A399E357AAF6AF635E01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44E2C4E726A1C74C2AA88BAB /* Pods_FontAndWaterMake.framework */,
+				561827711E020F9E59A5F303 /* Pods_FontAndWaterMake_FontAndWaterMakeUITests.framework */,
+				38CCDF171AD9F4AB597A5689 /* Pods_FontAndWaterMakeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F538372235AE97F00DFAFB8 = {
+			isa = PBXGroup;
+			children = (
+				2F53837D235AE97F00DFAFB8 /* FontAndWaterMake */,
+				2F538396235AE98100DFAFB8 /* FontAndWaterMakeTests */,
+				2F5383A1235AE98100DFAFB8 /* FontAndWaterMakeUITests */,
+				2F53837C235AE97F00DFAFB8 /* Products */,
+				E79F2DE6C516125AD2806AB0 /* Pods */,
+				1696A399E357AAF6AF635E01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F53837C235AE97F00DFAFB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F53837B235AE97F00DFAFB8 /* FontAndWaterMake.app */,
+				2F538393235AE98100DFAFB8 /* FontAndWaterMakeTests.xctest */,
+				2F53839E235AE98100DFAFB8 /* FontAndWaterMakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F53837D235AE97F00DFAFB8 /* FontAndWaterMake */ = {
+			isa = PBXGroup;
+			children = (
+				2F53837E235AE97F00DFAFB8 /* AppDelegate.h */,
+				2F53837F235AE97F00DFAFB8 /* AppDelegate.m */,
+				2F538381235AE97F00DFAFB8 /* ViewController.h */,
+				2F538382235AE97F00DFAFB8 /* ViewController.m */,
+				2F43836C235AF39300E00376 /* TextEditLab.h */,
+				2F43836D235AF39300E00376 /* TextEditLab.m */,
+				2F438371235AF6FB00E00376 /* TextEnterView.h */,
+				2F438372235AF6FB00E00376 /* TextEnterView.m */,
+				2F594120235D9B4500B96C61 /* TextDirectionSelectView.h */,
+				2F594121235D9B4500B96C61 /* TextDirectionSelectView.m */,
+				2F59412F235DC47400B96C61 /* ColorSelectView.h */,
+				2F594130235DC47400B96C61 /* ColorSelectView.m */,
+				2F594135235DCE0400B96C61 /* FontSelectionView.h */,
+				2F594136235DCE0400B96C61 /* FontSelectionView.m */,
+				2F594133235DC80800B96C61 /* UIColor+Hex.h */,
+				2F594132235DC80800B96C61 /* UIColor+Hex.m */,
+				2F59412B235D9E8E00B96C61 /* duiqi_1.png */,
+				2F594129235D9E8E00B96C61 /* duiqi_2.png */,
+				2F59412A235D9E8E00B96C61 /* duiqi_3.png */,
+				2F5383B0235AE9D300DFAFB8 /* 1.jpeg */,
+				2F438376235B084D00E00376 /* shanchu.png */,
+				2F538384235AE97F00DFAFB8 /* Main.storyboard */,
+				2F538387235AE98100DFAFB8 /* Assets.xcassets */,
+				2F538389235AE98100DFAFB8 /* LaunchScreen.storyboard */,
+				2F53838C235AE98100DFAFB8 /* Info.plist */,
+				2F53838D235AE98100DFAFB8 /* main.m */,
+			);
+			path = FontAndWaterMake;
+			sourceTree = "<group>";
+		};
+		2F538396235AE98100DFAFB8 /* FontAndWaterMakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F538397235AE98100DFAFB8 /* FontAndWaterMakeTests.m */,
+				2F538399235AE98100DFAFB8 /* Info.plist */,
+			);
+			path = FontAndWaterMakeTests;
+			sourceTree = "<group>";
+		};
+		2F5383A1235AE98100DFAFB8 /* FontAndWaterMakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F5383A2235AE98100DFAFB8 /* FontAndWaterMakeUITests.m */,
+				2F5383A4235AE98100DFAFB8 /* Info.plist */,
+			);
+			path = FontAndWaterMakeUITests;
+			sourceTree = "<group>";
+		};
+		E79F2DE6C516125AD2806AB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C1AEFEF4727C201FC28CB56 /* Pods-FontAndWaterMake.debug.xcconfig */,
+				F0FF5A9AB12B814884A9B070 /* Pods-FontAndWaterMake.release.xcconfig */,
+				99A8AD0340A886436EB15DB2 /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.debug.xcconfig */,
+				1985E6D2ABF239812025FAEE /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.release.xcconfig */,
+				C83E99DBBB7AEAD475DFE1EE /* Pods-FontAndWaterMakeTests.debug.xcconfig */,
+				98ACE32DFF20025B0B6DD997 /* Pods-FontAndWaterMakeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F53837A235AE97F00DFAFB8 /* FontAndWaterMake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5383A7235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMake" */;
+			buildPhases = (
+				FD462AE4AFF738A0A7386105 /* [CP] Check Pods Manifest.lock */,
+				2F538377235AE97F00DFAFB8 /* Sources */,
+				2F538378235AE97F00DFAFB8 /* Frameworks */,
+				2F538379235AE97F00DFAFB8 /* Resources */,
+				1642BC1DFD7460CAA42064B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAndWaterMake;
+			productName = FontAndWaterMake;
+			productReference = 2F53837B235AE97F00DFAFB8 /* FontAndWaterMake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F538392235AE98100DFAFB8 /* FontAndWaterMakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5383AA235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMakeTests" */;
+			buildPhases = (
+				83E65C84F9B27A594669E573 /* [CP] Check Pods Manifest.lock */,
+				2F53838F235AE98100DFAFB8 /* Sources */,
+				2F538390235AE98100DFAFB8 /* Frameworks */,
+				2F538391235AE98100DFAFB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F538395235AE98100DFAFB8 /* PBXTargetDependency */,
+			);
+			name = FontAndWaterMakeTests;
+			productName = FontAndWaterMakeTests;
+			productReference = 2F538393235AE98100DFAFB8 /* FontAndWaterMakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F53839D235AE98100DFAFB8 /* FontAndWaterMakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F5383AD235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMakeUITests" */;
+			buildPhases = (
+				3246C678302688BF9C1BBB4C /* [CP] Check Pods Manifest.lock */,
+				2F53839A235AE98100DFAFB8 /* Sources */,
+				2F53839B235AE98100DFAFB8 /* Frameworks */,
+				2F53839C235AE98100DFAFB8 /* Resources */,
+				D33A50043D0538DCCEFDF562 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F5383A0235AE98100DFAFB8 /* PBXTargetDependency */,
+			);
+			name = FontAndWaterMakeUITests;
+			productName = FontAndWaterMakeUITests;
+			productReference = 2F53839E235AE98100DFAFB8 /* FontAndWaterMakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F538373235AE97F00DFAFB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = GFGWin;
+				TargetAttributes = {
+					2F53837A235AE97F00DFAFB8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					2F538392235AE98100DFAFB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2F53837A235AE97F00DFAFB8;
+					};
+					2F53839D235AE98100DFAFB8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 2F53837A235AE97F00DFAFB8;
+					};
+				};
+			};
+			buildConfigurationList = 2F538376235AE97F00DFAFB8 /* Build configuration list for PBXProject "FontAndWaterMake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F538372235AE97F00DFAFB8;
+			productRefGroup = 2F53837C235AE97F00DFAFB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F53837A235AE97F00DFAFB8 /* FontAndWaterMake */,
+				2F538392235AE98100DFAFB8 /* FontAndWaterMakeTests */,
+				2F53839D235AE98100DFAFB8 /* FontAndWaterMakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F538379235AE97F00DFAFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F59412D235D9E8E00B96C61 /* duiqi_3.png in Resources */,
+				2F59412C235D9E8E00B96C61 /* duiqi_2.png in Resources */,
+				2F53838B235AE98100DFAFB8 /* LaunchScreen.storyboard in Resources */,
+				2F59412E235D9E8E00B96C61 /* duiqi_1.png in Resources */,
+				2F538388235AE98100DFAFB8 /* Assets.xcassets in Resources */,
+				2F538386235AE97F00DFAFB8 /* Main.storyboard in Resources */,
+				2F438377235B084D00E00376 /* shanchu.png in Resources */,
+				2F5383B1235AE9D400DFAFB8 /* 1.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F538391235AE98100DFAFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F53839C235AE98100DFAFB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1642BC1DFD7460CAA42064B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake/Pods-FontAndWaterMake-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake/Pods-FontAndWaterMake-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake/Pods-FontAndWaterMake-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3246C678302688BF9C1BBB4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontAndWaterMake-FontAndWaterMakeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83E65C84F9B27A594669E573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontAndWaterMakeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D33A50043D0538DCCEFDF562 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake-FontAndWaterMakeUITests/Pods-FontAndWaterMake-FontAndWaterMakeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake-FontAndWaterMakeUITests/Pods-FontAndWaterMake-FontAndWaterMakeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FontAndWaterMake-FontAndWaterMakeUITests/Pods-FontAndWaterMake-FontAndWaterMakeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD462AE4AFF738A0A7386105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FontAndWaterMake-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F538377235AE97F00DFAFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F538383235AE97F00DFAFB8 /* ViewController.m in Sources */,
+				2F594122235D9B4600B96C61 /* TextDirectionSelectView.m in Sources */,
+				2F53838E235AE98100DFAFB8 /* main.m in Sources */,
+				2F594131235DC47400B96C61 /* ColorSelectView.m in Sources */,
+				2F438373235AF6FB00E00376 /* TextEnterView.m in Sources */,
+				2F594137235DCE0400B96C61 /* FontSelectionView.m in Sources */,
+				2F594134235DC80800B96C61 /* UIColor+Hex.m in Sources */,
+				2F43836E235AF39300E00376 /* TextEditLab.m in Sources */,
+				2F538380235AE97F00DFAFB8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F53838F235AE98100DFAFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F538398235AE98100DFAFB8 /* FontAndWaterMakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F53839A235AE98100DFAFB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F5383A3235AE98100DFAFB8 /* FontAndWaterMakeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F538395235AE98100DFAFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F53837A235AE97F00DFAFB8 /* FontAndWaterMake */;
+			targetProxy = 2F538394235AE98100DFAFB8 /* PBXContainerItemProxy */;
+		};
+		2F5383A0235AE98100DFAFB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F53837A235AE97F00DFAFB8 /* FontAndWaterMake */;
+			targetProxy = 2F53839F235AE98100DFAFB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F538384235AE97F00DFAFB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F538385235AE97F00DFAFB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F538389235AE98100DFAFB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F53838A235AE98100DFAFB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F5383A5235AE98100DFAFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F5383A6235AE98100DFAFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F5383A8235AE98100DFAFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C1AEFEF4727C201FC28CB56 /* Pods-FontAndWaterMake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F5383A9235AE98100DFAFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FF5A9AB12B814884A9B070 /* Pods-FontAndWaterMake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F5383AB235AE98100DFAFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C83E99DBBB7AEAD475DFE1EE /* Pods-FontAndWaterMakeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAndWaterMake.app/FontAndWaterMake";
+			};
+			name = Debug;
+		};
+		2F5383AC235AE98100DFAFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98ACE32DFF20025B0B6DD997 /* Pods-FontAndWaterMakeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontAndWaterMake.app/FontAndWaterMake";
+			};
+			name = Release;
+		};
+		2F5383AE235AE98100DFAFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A8AD0340A886436EB15DB2 /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontAndWaterMake;
+			};
+			name = Debug;
+		};
+		2F5383AF235AE98100DFAFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1985E6D2ABF239812025FAEE /* Pods-FontAndWaterMake-FontAndWaterMakeUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R7N86J5648;
+				INFOPLIST_FILE = FontAndWaterMakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GFGWin.FontAndWaterMakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FontAndWaterMake;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F538376235AE97F00DFAFB8 /* Build configuration list for PBXProject "FontAndWaterMake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5383A5235AE98100DFAFB8 /* Debug */,
+				2F5383A6235AE98100DFAFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5383A7235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5383A8235AE98100DFAFB8 /* Debug */,
+				2F5383A9235AE98100DFAFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5383AA235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5383AB235AE98100DFAFB8 /* Debug */,
+				2F5383AC235AE98100DFAFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F5383AD235AE98100DFAFB8 /* Build configuration list for PBXNativeTarget "FontAndWaterMakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5383AE235AE98100DFAFB8 /* Debug */,
+				2F5383AF235AE98100DFAFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F538373235AE97F00DFAFB8 /* Project object */;
+}
